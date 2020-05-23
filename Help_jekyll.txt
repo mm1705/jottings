@@ -1,0 +1,50 @@
+Reference for code: https://programminghistorian.org/en/lessons/getting-started-with-markdown
+
+sudo gem install jekyll bundler
+
+jekyll new jottings <- to create basic website files in folder 'jottings'
+
+bundle exec jekyll serve --watch <- to start website locally
+[While the site is running, after making changes to website files: save the files and refresh the webpage to see the changes—except for the _config.yml file, for which you must stop running the website and restart running the website to see changes.]
+
+
+ “_site” folder. This is where Jekyll puts the HTML files it generates from the other files in your website folder.
+  site configuration settings (_config.yml)
+  
+  _config.yml -> provides basic settings information about your site, such as the site’s title and additional possibilities we won’t cover here, like how to structure links to posts (e.g. should they follow the pattern MySite.com/year/month/day/post-title?).
+  
+_includes folder has files that get included on all or certain pages (e.g. code to make the header contain your site title and main menu on every page of the site)
+
+_layouts folder contains code that controls how the pages on your site look (default.html), as well as customizations of that code to further style blog posts (post.html) and pages (page.html)
+
+_posts folder holds the individual files that each represent a blog post on your website. Adding a new post to this folder will make a new blog post appear on your website, in reverse chronological order (newest post to oldest). We’ll cover adding blog posts in the next section.
+
+_sass folder holds SCSS files that control the visual design of the site
+
+_site folder is where the HTML pages that appear on the web are generated and stored (e.g. you’ll write and save posts as Markdown files, but Jekyll will convert these to HTML for display in a web browser)
+
+index.md is a place to add content that you want to appear on your homepage, such as a biography blurb to appear above the “Posts” list
+
+about.md is an example of a Jekyll page. It’s already linked in the header of your website, and you can customize its text by opening and writing in that file. We’ll cover adding more site pages in the next section.
+
+css folder holds CSS converted from SCSS that controls the visual design of the site
+
+feed.xml lets people follow the RSS feed of your blog posts
+
+index.html controls the structuring of content on your site’s homepage
+
+Pages and posts are just two types of written content that’s styled differently. Pages are content (like an “About” page) that isn’t organized or displayed chronologically, but might be included in your website’s main menu; posts are meant to be used for content best organized by publication date. The URLs (links) for pages and posts are also different by default (although you can change this): page URLs look like MySite.com/about/, while post URLs look like MySite.com/2016/02/29/my-post-title.html.
+
+Make sure any Markdown cheatsheets you look at are for the “kramdown” flavor of Markdown, which is what GitHub Pages (where we’ll be hosting our website) supports.
+
+In about.md file:
+The stuff between the -– dashes is called “front matter”
+
+You can change things in the front matter of a page:
+
+layout: Keep this as-is (it should say page).
+title: Change this to the desired page title (unlike posts, no quotation marks around the title). In the screenshot below, I added a page with the title “Resume”.
+permalink: change the text between the two forward slash marks to the word (or phrase—but you’ll need to use hyphens and not spaces!) that you want to follow your site’s main URL to reach the page. For example, permalink: /about/ locates a page at localhost:4000/yourwebsitefoldername/about/
+
+
+To create a new page in addition to the “About” page that already exists on the site (and can be customized or deleted), create a copy of the about.md file in the same folder (the main website folder) and change its filename to the title you wish, using hyphens instead of spaces (e.g. resume.md or contact-me.md). Also change the title and permalink in the file’s front matter, and the content of the file. The new page should automatically appear in the main menu in the site’s header.
