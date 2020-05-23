@@ -1,6 +1,6 @@
 # Welcome to Jottings!
 
-The website is hosted **[here]()**.
+The website is hosted **[here](https://mm1705.github.io/jottings/)**.
  
 This website contains a curated list of:
 - Phrases,
