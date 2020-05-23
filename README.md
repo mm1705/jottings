@@ -70,3 +70,5 @@ Now, the Jekyll website is running on localhost:4000. [URI can be changed from _
 
 
 **[Reference for getting started with Jekyll](https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages)**
+
+Also, if you need help with markdown files, see [this]([https://stackedit.io/app#](https://stackedit.io/app#)).
