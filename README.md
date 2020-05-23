@@ -75,6 +75,7 @@ In order to create a Pull request, use this branch:
 >gh-pages
 
 Also, if you need help with markdown files, see [this](https://stackedit.io/app#).
+To validate RSS feed, see [this](https://validator.w3.org/feed/)
 
 ### Notes:
 Before overriding Jekyll theme, take care of [these](https://github.com/jekyll/minima/issues/375#issuecomment-499904189).
