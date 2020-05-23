@@ -53,7 +53,6 @@ Inside jottings/ folder, execute this command to run website on localhost:
 
 Now, the Jekyll website is running on localhost:4000. [URI can be changed from _config.yml file.]
 
-**[Reference for getting started with Jekyll](https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages)**
 ## Directories/Files Info:
 - Directory:
 	- _includes: Files that get included on all or certain pages (e.g. code to make the header)
@@ -68,3 +67,6 @@ Now, the Jekyll website is running on localhost:4000. [URI can be changed from _
 	- index.md: Place to add content that you want to appear on your homepage
 	- feed.xml: Allow users to follow the RSS feed of your blog posts
 	- index.html: Controls the structuring of content on your site’s homepage
+
+
+**[Reference for getting started with Jekyll](https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages)**
