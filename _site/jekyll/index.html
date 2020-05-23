@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Jekyll | Jottings</title>
+<meta name="generator" content="Jekyll v4.0.1" />
+<meta property="og:title" content="Jekyll" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A collection of jottings in Hindi and English languages." />
+<meta property="og:description" content="A collection of jottings in Hindi and English languages." />
+<link rel="canonical" href="http://localhost:4000/jottings/jekyll/" />
+<meta property="og:url" content="http://localhost:4000/jottings/jekyll/" />
+<meta property="og:site_name" content="Jottings" />
+<script type="application/ld+json">
+{"description":"A collection of jottings in Hindi and English languages.","headline":"Jekyll","@type":"WebPage","url":"http://localhost:4000/jottings/jekyll/","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/jottings/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/jottings/feed.xml" title="Jottings" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/jottings/">Jottings</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/jottings/about/">About</a><a class="page-link" href="/jottings/jekyll/">Jekyll</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Jekyll</h1>
+  </header>
+
+  <div class="post-content">
+    <p>Basic help for website generated via Jekyll “minima” theme.</p>
+
+<h4 id="commands">Commands:</h4>
+
+<ul>
+  <li>sudo gem install jekyll bundler</li>
+  <li>jekyll new jottings [to create basic website files in folder ‘jottings’]</li>
+  <li>bundle exec jekyll serve –watch [to start website locally]</li>
+</ul>
+
+<p>[While the site is running, after making changes to website files: save the files and refresh the webpage to see the changes—except for the _config.yml file, for which we must stop running the website and restart running the website to see changes.]</p>
+
+<hr />
+<p><br /></p>
+
+<h4 id="directoriesfiles">Directories/Files:</h4>
+
+<ul>
+  <li>_site folder =&gt; This is where Jekyll puts the HTML files it generates from the other files in your website folder.(e.g. you’ll write and save posts as Markdown files, but Jekyll will convert these to HTML for display in a web browser)</li>
+  <li>_config.yml =&gt; Provides basic site configuration settings like information about website, such as the site’s title, how to structure links to posts (e.g. should they follow the pattern MySite.com/year/month/day/post-title?).</li>
+  <li>_includes folder =&gt; Contain files that get included on all or certain pages (e.g. code to make the header contain your site title and main menu on every page of the site).</li>
+  <li>_layouts folder =&gt; Contains code that controls how the pages on your site look (default.html), as well as customizations of that code to further style blog posts (post.html) and pages (page.html)</li>
+  <li>_posts folder =&gt; Files that each represent a blog post on your website. Adding a new post to this folder will make a new blog post appear on your website, in reverse chronological order (newest post to oldest).</li>
+  <li>_sass folder =&gt; Holds SCSS files that control the visual design of the site</li>
+  <li>index.md =&gt; Place to add content that you want to appear on your homepage, such as a biography blurb to appear above the “Posts” list</li>
+  <li>about.md =&gt; Example Jekyll page. It’s already linked in the header of your website, and you can customize its text by opening and writing in that file.</li>
+  <li>css folder =&gt; Holds CSS converted from SCSS that controls the visual design of the sitec</li>
+  <li>feed.xml =&gt; Allow people to follow the RSS feed of your blog posts.</li>
+  <li>index.html =&gt; Controls the structuring of content on your site’s homepage</li>
+</ul>
+
+<hr />
+<p><br /></p>
+
+<h4 id="posts-and-pages">Posts and pages:</h4>
+<p>Pages and posts are just two types of written content that’s styled differently. <br />
+Pages are content (like an “About” page) that isn’t organized or displayed chronologically, but might be included in your website’s main menu.<br />
+Posts are meant to be used for content best organized by publication date. The URLs (links) for pages and posts are also different by default (although you can change this): page URLs look like MySite.com/about/, while post URLs look like MySite.com/2016/02/29/my-post-title.html.</p>
+
+<p>To create a new page in addition to the “About” page that already exists on the site (and can be customized or deleted), create a copy of the about.md file in the same folder (the main website folder) and change its filename to the title you wish, using hyphens instead of spaces (e.g. resume.md or contact-me.md). Also change the title and permalink in the file’s front matter, and the content of the file. The new page should automatically appear in the main menu in the site’s header.</p>
+
+<p>Note: Make sure any Markdown cheatsheets you look at are for the “kramdown” flavor of Markdown, which is what GitHub Pages supports.</p>
+
+<hr />
+<p><br /></p>
+
+<h4 id="front-matter">Front matter:</h4>
+
+<p>In about.md file:</p>
+<blockquote>
+  <p>The stuff between the -– dashes is called “front matter”</p>
+</blockquote>
+
+<p>Front matter guidelines:</p>
+<blockquote>
+  <p>layout: Keep this as-is (it should say page/post). <br />
+title: Change this to the desired page title (unlike posts, no quotation marks around the title). <br />
+permalink: change the text between the two forward slash marks to the word (or phrase—but you’ll need to use hyphens and not spaces!) that you want to follow your site’s main URL to reach the page. For example, permalink: /about/ locates a page at localhost:4000/yourwebsitefoldername/about/</p>
+</blockquote>
+
+<hr />
+<p><br /></p>
+
+<h4 id="minima-theme">“Minima” theme:</h4>
+
+<p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="https://jekyllrb.com/">jekyllrb.com</a></p>
+
+<p>You can find the source code for Minima at GitHub:
+<a href="https://github.com/jekyll">jekyll</a> /
+<a href="https://github.com/jekyll/minima">minima</a></p>
+
+<p>You can find the source code for Jekyll at GitHub:
+<a href="https://github.com/jekyll">jekyll</a> /
+<a href="https://github.com/jekyll/jekyll">jekyll</a></p>
+
+<p><a href="https://programminghistorian.org/en/lessons/getting-started-with-markdown">Getting started with Jekyll and github-pages</a></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/jottings/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Jottings</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Jottings</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/mm1705"><svg class="svg-icon"><use xlink:href="/jottings/assets/minima-social-icons.svg#github"></use></svg> <span class="username">mm1705</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>A collection of jottings in Hindi and English languages.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
