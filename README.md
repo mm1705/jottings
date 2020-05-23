@@ -5,6 +5,7 @@ This website contains a curated list of:
 - Quotes,
 - Poems,
 - Shayari,
+<br />
 collected over-time, in Hindi and English languages.
 
 In order to create a pull-request, use branch: gh-pages
