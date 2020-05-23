@@ -74,7 +74,7 @@ Now, the Jekyll website is running on localhost:4000. [URI can be changed from _
 In order to create a Pull request, use this branch:
 >gh-pages
 
-Also, if you need help with markdown files, see [this](https://stackedit.io/app#).
+Also, if you need help with markdown files, see [this](https://stackedit.io/app#). <br />
 To validate RSS feed, see [this](https://validator.w3.org/feed/)
 
 ### Notes:
