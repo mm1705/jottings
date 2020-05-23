@@ -20,9 +20,8 @@
 
 title: Jottings
 #email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A curated list of phrases/quotes/poems/shayari from people/movies in Hindi and English languages,
-  including some written by me.
+#description: #>- # this means to ignore newlines until "baseurl:"
+description: A collection of jottings in Hindi and English languages.
  #It will appear in your document head meta (for
   #Google search results) and in your feed.xml site description.
 baseurl: "/jottings" # the subpath of your site, e.g. /blog
@@ -55,3 +54,9 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+name: Jottings
+#description: A description for your blog
+#url: http://your-blog-url.example.com
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
