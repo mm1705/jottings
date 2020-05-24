@@ -76,10 +76,12 @@ Before getting started with playing around with Jekyll themes, since this websit
 
 - [ ] TODO: Add 'themes' folder and try some themes like Midnight.
 
-**[Reference for getting started with Jekyll](https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages)**
+## Miscellaneous: 
 
 In order to create a Pull request, use this branch:
 >gh-pages
+
+**[Reference for getting started with Jekyll](https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages)**
 
 Also, if you need help with markdown files, see [this](https://stackedit.io/app#). <br />
 To validate RSS feed, see [this](https://validator.w3.org/feed/)
