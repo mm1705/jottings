@@ -31,7 +31,7 @@ github_username:  mm1705
 
 # Build settings
 markdown: kramdown #supported by github pages
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
 
