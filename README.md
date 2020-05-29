@@ -74,8 +74,6 @@ Note that an `_` in the prefix of name indicates the directory or file has been 
 This website uses [`minima`](https://github.com/jekyll/minima) Jekyll theme. <br />
 Before getting started with playing around with Jekyll themes, since this website is hosted on Github Pages, we need to make sure the theme is supported by Github Pages. You can find themes supported by Github Pages [here](https://pages.github.com/themes/). <br />
 
-- [ ] TODO: Add 'themes' folder and try some themes like Midnight. (both manually and github pages option from repo)
-
 ## Miscellaneous: 
 
 In order to create a Pull request, use this branch:
