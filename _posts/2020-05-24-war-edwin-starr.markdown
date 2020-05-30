@@ -11,8 +11,18 @@ categories:
 Anyways, there is a song which becomes sort of a signature of Lee and Carter, protagonists of this franchise. This song is [`War`](https://en.wikipedia.org/wiki/War_(The_Temptations_song)).  
 <br />
 The message from this song: `"War,what is it good for? Absolutely nothin'!"`.
+<!--br />
+<!-Watch it <a href="https://www.youtube.com/watch?v=ztZI2aLQ9Sw&t=0m4s" target="_blank">Reference</a-->
 
-<br />
-Watch it <a href="https://www.youtube.com/watch?v=ztZI2aLQ9Sw&t=0m4s" target="_blank">here</a>.
+<!--Response iframe-->
+<div id="Container"
+ style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+ <iframe id="War"
+  width="100%" height="100%"
+  src="https://www.youtube.com/embed/ztZI2aLQ9Sw?start=4"
+  frameborder="0" allowfullscreen
+  style="position:absolute; top:0; left: 0"></iframe>
+</div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ztZI2aLQ9Sw?start=4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>see</iframe>
+<!--iframe width="560" height="315" src="https://www.youtube.com/embed/ztZI2aLQ9Sw?start=4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>see</iframe-->
+
