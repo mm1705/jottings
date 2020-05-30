@@ -5,3 +5,46 @@ permalink: /quick-ref/
 ---
 
 <script src="https://gist.github.com/mm1705/a208a99f1fe9e099a96afc8a193d30e8.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript" src="https://www.google.com/jsapi">
+    </script>
+    <script type="text/javascript">
+
+      // Load the Google Transliterate API
+      google.load("elements", "1", {
+            packages: "transliteration"
+          });
+
+      function onLoad() {
+        var options = {
+            sourceLanguage:
+                google.elements.transliteration.LanguageCode.ENGLISH,
+            destinationLanguage:
+                [google.elements.transliteration.LanguageCode.HINDI],
+            shortcutKey: 'ctrl+g',
+            transliterationEnabled: true
+        };
+
+        // Create an instance on TransliterationControl with the required
+        // options.
+        var control =
+            new google.elements.transliteration.TransliterationControl(options);
+
+        // Enable transliteration in the textbox with id
+        // 'transliterateTextarea'.
+        control.makeTransliteratable(['transliterateTextarea']);
+      }
+      google.setOnLoadCallback(onLoad);
+    </script>
+  </head>
+  <body>
+    Type in Hindi (Press Ctrl+g to toggle between English and Hindi)<br>
+    <textarea id="transliterateTextarea" style="width:600px;height:200px"></textarea>
+  </body>
+</html> 
+
+Reference: [Transliterate](https://developers.google.com/transliterate/v1/getting_started)
