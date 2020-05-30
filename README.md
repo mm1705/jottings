@@ -81,7 +81,7 @@ In order to create a Pull request, use this branch:
 
 **[Reference for getting started with Jekyll](https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages)**
 
-**[Reference for overriding Jekyll theme defaults]**(https://jekyllrb.com/docs/themes/#overriding-theme-defaults)
+**[Reference for overriding Jekyll theme defaults](https://jekyllrb.com/docs/themes/#overriding-theme-defaults)**
 
 Also, if you need help with markdown files, see [this](https://stackedit.io/app#). <br />
 To validate RSS feed, see [this](https://validator.w3.org/feed/)
