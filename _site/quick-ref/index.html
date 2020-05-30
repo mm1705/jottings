@@ -3,17 +3,17 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Jottings | A collection of jottings in Hindi and English languages.</title>
+<title>Quick Ref | Jottings</title>
 <meta name="generator" content="Jekyll v4.0.1" />
-<meta property="og:title" content="Jottings" />
+<meta property="og:title" content="Quick Ref" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A collection of jottings in Hindi and English languages." />
 <meta property="og:description" content="A collection of jottings in Hindi and English languages." />
-<link rel="canonical" href="http://localhost:4000/jottings/404.html" />
-<meta property="og:url" content="http://localhost:4000/jottings/404.html" />
+<link rel="canonical" href="http://localhost:4000/jottings/quick-ref/" />
+<meta property="og:url" content="http://localhost:4000/jottings/quick-ref/" />
 <meta property="og:site_name" content="Jottings" />
 <script type="application/ld+json">
-{"description":"A collection of jottings in Hindi and English languages.","@type":"WebPage","url":"http://localhost:4000/jottings/404.html","headline":"Jottings","@context":"https://schema.org"}</script>
+{"description":"A collection of jottings in Hindi and English languages.","@type":"WebPage","url":"http://localhost:4000/jottings/quick-ref/","headline":"Quick Ref","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/jottings/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/jottings/feed.xml" title="Jottings" /></head>
 <body><header class="site-header" role="banner">
@@ -33,26 +33,62 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <article class="post">
 
-<div class="container">
-  <h1>404</h1>
+  <header class="post-header">
+    <h1 class="post-title">Quick Ref</h1>
+  </header>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+  <div class="post-content">
+    <script src="https://gist.github.com/mm1705/a208a99f1fe9e099a96afc8a193d30e8.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="https://www.google.com/jsapi">
+    </script>
+    <script type="text/javascript">
+
+      // Load the Google Transliterate API
+      google.load("elements", "1", {
+            packages: "transliteration"
+          });
+
+      function onLoad() {
+        var options = {
+            sourceLanguage:
+                google.elements.transliteration.LanguageCode.ENGLISH,
+            destinationLanguage:
+                [google.elements.transliteration.LanguageCode.HINDI],
+            shortcutKey: 'ctrl+g',
+            transliterationEnabled: true
+        };
+
+        // Create an instance on TransliterationControl with the required
+        // options.
+        var control =
+            new google.elements.transliteration.TransliterationControl(options);
+
+        // Enable transliteration in the textbox with id
+        // 'transliterateTextarea'.
+        control.makeTransliteratable(['transliterateTextarea']);
+      }
+      google.setOnLoadCallback(onLoad);
+    </script>
+  </head>
+  <body>
+    Type in Hindi (Press Ctrl+g to toggle between English and Hindi)<br />
+    <textarea id="transliterateTextarea" style="width:600px;height:200px"></textarea>
+  </body>
+</html>
+
+<p>Reference: <a href="https://developers.google.com/transliterate/v1/getting_started">Transliterate</a></p>
+
+  </div>
+
+</article>
 
       </div>
     </main><footer class="site-footer h-card">
